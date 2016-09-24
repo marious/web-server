@@ -10,6 +10,6 @@ const middleware = {
 	}
 };
 
-
+console.log('hi');
 
 module.exports = middleware;
