@@ -16,7 +16,7 @@ app.get("/about", middleware.requireAuthentication, (req, res) => {
 	res.send("About Me");
 });
 
-app.get("/me", function() {
+app.get("/me", function(req, res) {
 	res.send("My name is Mohammed Raya");
 });
 
