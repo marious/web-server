@@ -16,6 +16,10 @@ app.get("/about", middleware.requireAuthentication, (req, res) => {
 	res.send("About Me");
 });
 
+app.get("/me", function() {
+	res.send("My name is Mohammed Raya");
+});
+
 
 app.use(express.static(path.join(__dirname, 'public')));
 
