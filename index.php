@@ -1,5 +1,5 @@
 <?php
-echo 'hi';exit;
+
 $response = array(
     'data' => null,
     'error' => null,
